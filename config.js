@@ -50,7 +50,7 @@ const SITE = {
      DATA STORYLINE — 数据成长之旅（时间线）
      ========================================================== */
   storyline: {
-    label: { en: "My Journey at the Intersection of Finance, Data & AI",              zh: "我和数据的故事" },
+    label: { en: "My Journey at the Intersection of Data, Finance & AI",              zh: "我和数据,财务,AI的故事" },
     title: { en: "Growing with data and finance.<br>Evolving with AI.", zh: "与数据和财务共同成长。<br>因AI持续进化。" },
 
     steps: [
@@ -69,13 +69,13 @@ const SITE = {
       {
         year: "2021 – 22",
         title:  { en: "Discovering What Data Could Do",  zh: "发现数据能做什么" },
-        desc:   { en: "NUS MTech · Projected stock price forecasting and anime recommendation systems using LLM models. <br>I saw how data could uncover patterns, generate insights, and support decision-making at scale. And for the first time, I knew about LLM but did not expect how much it will change our life", zh: "NUS硕士 · 在文本分析课上用LLM模型构建股价预测和动漫推荐系统。<br>学习了如何运用数据创造商业价值,也是第一次接触LLM,但没有预见到此刻它对我们工作和生活的转变。" },
+        desc:   { en: "NUS MTech · Projected stock price forecasting and anime recommendation systems using LLM models. <br>I saw how data could uncover patterns, generate insights, and support decision-making at scale. And for the first time, I knew about LLM but did not expect how much it will change our life.", zh: "NUS硕士 · 在文本分析课上用LLM模型构建股价预测和动漫推荐系统。<br>学习了如何运用数据创造商业价值,也是第一次接触LLM,但没有预见到此刻它对我们工作和生活的转变。" },
         active: false,
       },
       {
         year: "2023 – 25",
         title:  { en: "Turning Insights into Decisions",  zh: "数据转化成决策" },
-        desc:   { en: "Shopee Cross Boarder Business Analyst to FP&A. Recovered $2–3M via escrow policy redesign · Pioneered the Marketplace FP&A team from zero · owned monthly P&L budgeting across 10+ markets · Proposed a $200M+ monetization strategy by uncovering hidden cost gaps competitors. <br> Data became a tool for understanding performance, evaluating opportunities, and supporting business decisions across markets.", zh: "Shopee · 从跨境运营到FP&A。通过托管政策重设计回收$2-3M · 从0到1组建MP FP&A团队 · 负责10+市场月度P&L预算 · 主导了跨市场涨佣标准(~$200mil收入提升)。<br>数据成为理解绩效、评估机会和跨市场支持业务决策的工具。" },
+        desc:   { en: "Shopee Cross Boarder Business Analyst to FP&A. Recovered $2–3M via escrow policy redesign · Pioneered the Marketplace FP&A team from zero · Owned monthly P&L budgeting across 10+ markets · Proposed a $200M+ monetization strategy by uncovering hidden cost gaps competitors. <br> Data became a tool for understanding performance, evaluating opportunities, and supporting business decisions across markets.", zh: "Shopee · 从跨境运营到FP&A。通过托管政策重设计回收$2-3M · 从0到1组建MP FP&A团队 · 负责10+市场月度P&L预算 · 主导了跨市场涨佣标准(~$200mil收入提升)。<br>数据成为理解绩效、评估机会和跨市场支持业务决策的工具。" },
         active: false,
       },
       {
@@ -154,11 +154,11 @@ const SITE = {
         tagColor: "amber",
         numValue: "$2–3M",
         numColor: "amber",
-        numSub:   { en: "Total recovered", zh: "总回收金额" },
+        numSub:   { en: "Total recovered/quarter", zh: "总回收金额/季度" },
         title:    { en: "Escrow Recovery & Policy Standardization", zh: "负托管回收与政策标准化" },
         desc:     { en: "Triggered by routine bad-debt review. Discovered fragmented collection policies across SEA markets. Unified invoice due dates and escrow deduction rules — ~$1M/quarter was at imminent bad-debt risk.", zh: "在例行坏账审查中触发。发现各东南亚市场回收政策不一。统一发票到期日和托管扣款规则——每季度约$1M面临坏账风险。" },
         insight:  null,
-        pills:    ["SQL", "Cross-market", "Policy Design"],
+        pills:    ["Python", "Cross-market", "Policy Design"],
         hasLink:  false,
         links:    [],
       },
@@ -173,7 +173,7 @@ const SITE = {
         title:    { en: "Monetization Strategy", zh: "变现策略设计" },
         desc:     { en: "Built multi-scenario CODB model benchmarking Shopee CB vs competitors. Key insight overturned management assumption: competitors' total seller cost was actually higher — unlocking room for commission increases across all SEA markets.", zh: "搭建多情景CODB模型对标竞对。核心洞察颠覆管理层认知：竞对卖家综合成本实际更高——为全东南亚涨佣打开空间。" },
         insight:  { en: "Each 1% commission increase ≈ 1% order decline, but net EBITDA positive.", zh: "每1%涨佣≈1%单量下降，但EBITDA净正。" },
-        pills:    ["Financial Modelling", "EBITDA", "Cross-market"],
+        pills:    ["Financial Modelling","Rev Uplift", "Cross-market"],
         hasLink:  true,
         links: [
           {
@@ -251,9 +251,9 @@ const SITE = {
         badge:   { en: "Current", zh: "在职" },
         badgeType: "accent",
         points: [
-          { en: "<strong>Monetization Strategy:</strong> Engineered $200M+ revenue uplift through competitive CODB analysis and multi-scenario financial modelling across all SEA markets.",                           zh: "<strong>变现策略：</strong>通过竞品CODB分析与多情景财务建模，在所有东南亚市场实现$200M+收入增长。" },
+          { en: "<strong>Monetization Strategy:</strong> Proposed $200M+ revenue uplift through competitive CODB analysis and multi-scenario financial modelling across all SEA markets.",                           zh: "<strong>变现策略：</strong>通过竞品CODB分析与多情景财务建模，向管理层提议并规范了所有东南亚市场的涨佣，实现$200M+收入增长。" },
           { en: "<strong>FP&A Ownership:</strong> End-to-end monthly Topline & P&L budgeting for 10+ markets with rigorous variance analysis.",                                                                      zh: "<strong>FP&A管理：</strong>10+市场端到端月度Topline与P&L预算，严格差异分析。" },
-          { en: "<strong>Team & AI:</strong> Pioneered FP&A team from zero; built 3 AI workflow bots saving 0.5 FTE weekly.",                                                                                        zh: "<strong>团队与AI：</strong>从零搭建FP&A团队；构建3个AI工作流机器人，每周节省0.5 FTE。" },
+          { en: "<strong>Team & AI:</strong> Pioneered FP&A team from zero; built 3 AI workflow bots saving 0.5 FTE.",                                                                                        zh: "<strong>团队与AI：</strong>从零搭建FP&A团队；构建3个AI工作流机器人，节省0.5 FTE。" },
         ],
         chips: ["$200M+", "10+ Markets", "AI Bots", "Team Builder"],
         sub: {
@@ -261,6 +261,7 @@ const SITE = {
           points: [
             { en: "Spearheaded Negative Escrow remediation — recovered $2–3M total, unified escrow policies across all SEA markets.", zh: "主导负托管修复项目——总回收$2-3M，统一所有东南亚市场托管政策。" },
           ],
+          chips: ["$1M+", "Cross Markets", "Cost Saving"],
         },
       },
       {
