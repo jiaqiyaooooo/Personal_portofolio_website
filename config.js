@@ -367,9 +367,9 @@ const SITE = {
      LANGUAGES — 语言
      ========================================================== */
   languages: [
-    { name: "English",                          nameCn: null,          note: "IELTS 7.5" },
+    { name: "English",                          nameCn: null,          note: "Full Professional Proficiency" },
     { name: { en: "Mandarin", zh: "普通话" },   nameCn: true,         note: "Native" },
-    { name: { en: "Cantonese", zh: "粤语" },    nameCn: true,         note: "Native" },
+    { name: { en: "Cantonese", zh: "粤语" },    nameCn: true,         note: "Fluent" },
   ],
 
 
@@ -377,8 +377,8 @@ const SITE = {
      FOOTER — 页脚
      ========================================================== */
   footer: {
-    en: "Built with care in Singapore",
-    zh: "用心构建于新加坡",
+    en: "in Singapore",
+    zh: "于新加坡",
   },
 
 };
