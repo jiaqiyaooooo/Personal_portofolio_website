@@ -205,8 +205,8 @@ const SITE = {
         hasLink:  true,
         links: [
           {
-            label: { en: "Process diagram (coming soon)", zh: "流程图解（即将推出）" },
-            url:   "TODO_填写你的链接",
+            label: { en: "Commission Approval Bot Detail", zh: "Commission Approval Bot流程图解" },
+            url:   "https://commission-approval-bot.vercel.app/",
           },
         ],
         /* Sub-items unique to this card */
@@ -320,20 +320,18 @@ const SITE = {
         bars: [
           { name: "FP&A / Forecasting",   level: "Expert",    width: 95 },
           { name: "P&L Management",       level: "Expert",    width: 95 },
-          { name: "Variance Analysis",    level: "Expert",    width: 90 },
           { name: "Financial Modelling",  level: "Expert",  width: 90 },
-          { name: "Dashboards",           level: "Expert",  width: 90 },
+          { name: "Presentation / Deck",           level: "Expert",  width: 90 },
         ],
       },
       {
         heading: { en: "Technical", zh: "技术" },
         color:   "g",         // green
         bars: [
-          { name: "Excel / Sheets",       level: "Expert",    width: 95 },
-          { name: "SQL",                  level: "Advanced",  width: 82 },
-          { name: "Python",               level: "Advanced",  width: 78 },
-          { name: "Machine Learning",     level: "Proficient", width: 65 },
-          { name: "Presentation / Deck",  level: "Advanced",    width: 85 },
+          { name: "Excel",       level: "Expert",    width: 95 },
+          { name: "SQL",                  level: "Advanced",  width: 80 },
+          { name: "Python",               level: "Advanced",  width: 75 },
+          { name: "Tableau",     level: "Proficient", width: 70 },
         ],
       },
       {
