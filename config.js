@@ -63,7 +63,7 @@ const SITE = {
       {
         year: "2016 – 21",
         title:  { en: "Measuring the Past",  zh: "衡量过去" },
-        desc:   { en: "EY · Led full audit reports for IPOs with RMB 2B+ assets, NYSE-listed annual audits. <br>But I realized: most of my work was verifying what had already happened. That limitation became the catalyst for change.", zh: "安永 · 主导20亿+企业IPO全套审计报告、纽交所上市公司年度审计。<br>但意识到：审计的天职是合规，无法通过数据为企业创造商业价值。这一局限成为转变的催化剂。" },
+        desc:   { en: "EY · Led full audit reports for IPOs with RMB 2B+ assets, NYSE-listed annual audits. <br>But I realized: most of my work was verifying what had already happened. That limitation became the catalyst for change.", zh: "安永 · 主导20亿+资产企业IPO全套审计报告、纽交所上市公司年度审计。<br>但意识到：审计的天职是合规，无法通过数据为企业创造商业价值。这一局限成为转变的催化剂。" },
         active: false,
       },
       {
@@ -253,7 +253,7 @@ const SITE = {
         points: [
           { en: "<strong>Monetization Strategy:</strong> Proposed $200M+ revenue uplift through competitive CODB analysis and multi-scenario financial modelling across all SEA markets.",                           zh: "<strong>变现策略：</strong>通过竞品CODB分析与多情景财务建模，向管理层提议并规范了所有东南亚市场的涨佣，实现$200M+收入增长。" },
           { en: "<strong>FP&A Ownership:</strong> End-to-end monthly Topline & P&L budgeting for 10+ markets with rigorous variance analysis.",                                                                      zh: "<strong>FP&A管理：</strong>10+市场端到端月度Topline与P&L预算，严格差异分析。" },
-          { en: "<strong>Team & AI:</strong> Pioneered FP&A team from zero; built 3 AI workflow bots saving 0.5 FTE.",                                                                                        zh: "<strong>团队与AI：</strong>从零搭建FP&A团队；构建3个AI工作流机器人，节省0.5 FTE。" },
+          { en: "<strong>Team & AI:</strong> Pioneered CB MP FP&A team from zero; built 3 AI workflow bots saving 0.5 FTE.",                                                                                        zh: "<strong>团队与AI：</strong>从零搭建跨境MP FP&A团队；构建3个AI工作流机器人，节省0.5 FTE。" },
         ],
         chips: ["$200M+", "10+ Markets", "AI Bots", "Team Builder"],
         sub: {
