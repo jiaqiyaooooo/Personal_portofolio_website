@@ -367,9 +367,9 @@ const SITE = {
      LANGUAGES — 语言
      ========================================================== */
   languages: [
-    { name: "English",                          nameCn: null,          note: "Full Professional Proficiency" },
+    { name: "English",                          nameCn: null,          note: "Fluent" },
     { name: { en: "Mandarin", zh: "普通话" },   nameCn: true,         note: "Native" },
-    { name: { en: "Cantonese", zh: "粤语" },    nameCn: true,         note: "Fluent" },
+    { name: { en: "Cantonese", zh: "粤语" },    nameCn: true,         note: "Intermediate" },
   ],
 
 
